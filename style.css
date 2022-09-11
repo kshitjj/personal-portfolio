@@ -8,6 +8,9 @@ body {
     font-family: "PT Sans", sans-serif;
 }
 
+hr {
+    margin: 1rem 0.5rem;
+}
 /* container */
 .container {
     padding-left: 1rem;
@@ -38,3 +41,24 @@ body {
     border: 1px solid var(--primary-color);
 }
 
+/* lists */
+
+.list-non-bullet {
+    list-style: none;
+}
+
+.list-item-inline {
+    display: inline;
+    margin: 0rem 0.5rem;
+}
+
+/* navigation */
+
+.navigation {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.navigation .links {
+    color: white;
+}
