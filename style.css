@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
 
 :root{
-    --primary-color: #67e8f9;
+    --primary-color: #0891b2;
 }
 
 body {
     font-family: "PT Sans", sans-serif;
 }
+
 /* container */
 .container {
     padding-left: 1rem;
@@ -27,7 +28,7 @@ body {
 
 .primary-link{
     background-color: var(--primary-color);
-    border-radius: 0.5 rem;
+    border-radius: 0.5rem;
     color: white;
 }
 
