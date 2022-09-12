@@ -8,6 +8,7 @@
 
 body {
     font-family: "PT Sans", sans-serif;
+    margin: 0px;
 }
 
 hr {
@@ -62,7 +63,6 @@ hr {
     color: white;
     padding: 1rem;
     border-bottom-left-radius: 1rem;
-    border-top-right-radius: 1rem;
 }
 
 .navigation .links {
@@ -94,8 +94,13 @@ hr {
 }
 
 .hero .hero-heading {
+    text-align: center;
     padding-top: 1rem;
     color: var(--dark-gray);
+}
+
+.hero .hero-heading .heading-inverted {
+    color: var(--primary-color);
 }
 
 /* sections */
@@ -112,6 +117,45 @@ hr {
     background-color: var(--off-white);
 }
 
+/* blogs */
+
+.bloglist .blog {
+    padding: 1rem 0.5rem;
+}
+.bloglist .blog .title{
+    color: var(--primary-color);
+    font-size: 1.8rem;
+    font-weight: 600;
+    padding: 0px;
+}
+
+.bloglist .blog .description{
+    padding: 0px;
+    margin: 0px;
+    font-size: 1.2rem;
+}
+
+/* projects */
+
+.project-list .project{
+    background-color: var(--off-white);
+    padding: 2rem;
+    border-radius: 1rem;
+
+}
+
+.project-list .project .title{
+    margin: 0px;
+    font-size: 1.5rem;
+}
+
+.project-list .project .description{
+    margin-top: 0px;
+    margin-bottom: 0.8rem;
+    font-size: 1.2rem;
+
+}
+
 /* footers */
 
 .footer{
@@ -119,7 +163,6 @@ hr {
     padding: 2rem 1rem;
     text-align: center;
     color: white;
-    border-bottom-left-radius: 1rem;
     border-top-right-radius: 1rem;
 }
 
