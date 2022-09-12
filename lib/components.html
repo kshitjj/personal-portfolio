@@ -1,40 +1,42 @@
 <!DOCTYPE html>
- <html lang="en">
+<html lang="en">
 
- <head>
-   <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-   <title>Personal Portfolio</title>
-   <link rel="stylesheet" href="style.css">
- </head>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Personal Portfolio</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
 
- <body>
-   <h1>Welcome to Kshitij Rajgude's Portfolio</h1>
-   <p>I am attending neog.camp and am currently completing the level 0.</p>
+<body>
+  <h1>Welcome to Kshitij Rajgude's Portfolio</h1>
+  <p>I am attending neog.camp and am currently completing the level 0.</p>
 
-   <hr>
+  <hr>
 
-   <h2>@Typography</h2>
-   <p>Let me show you what normal text looks like</p>
-   <p>We can also add <strong>bold text</strong>.</p>
-   <small>This is a small things</small>
+  <h2>@Typography</h2>
+  <p>Let me show you what normal text looks like</p>
+  <p>We can also add <strong>bold text</strong>.</p>
+  <small>This is a small things</small>
 
-   <hr>
+  <hr>
 
-   <h2>@container</h2>
-   
-   <h3>fluid container</h3>
-   <div class="container container-fluid">This is a fluid container, this goes from one end to another end of the page.</div>
+  <h2>@container</h2>
 
-   <h3>center containter</h3>
-   <div class="container container-center">This is a centered container and it will go from specific width to some specific width.</div>
+  <h3>fluid container</h3>
+  <div class="container container-fluid">This is a fluid container, this goes from one end to another end of the page.
+  </div>
 
-   <hr>
+  <h3>center containter</h3>
+  <div class="container container-center">This is a centered container and it will go from specific width to some
+    specific width.</div>
 
-   <h2>@links</h2>
-   <a href="" class="links primary-link">primary link</a>
-   <a href="" class="links secondary-link">secondary link</a>
+  <hr>
+
+  <h2>@links</h2>
+  <a href="" class="links primary-link">primary link</a>
+  <a href="" class="links secondary-link">secondary link</a>
 
   <hr>
 
@@ -84,18 +86,61 @@
   <h2>@header</h2>
 
   <header class="hero">
-    <img class="hero-img" src="/images/undraw_developer_activity_re_39tg.svg">
-    <h1 class="hero-heading">heading inside hero</h1>
+    <img class="hero-img" src="/images/home-hero-img.svg">
+    <h1 class="hero-heading">heading <span class="heading-inverted">inside hero</span></h1>
   </header>
+
+  <hr>
+
+  <h2>@blogs</h2>
+  <ul class="list-non-bullet bloglist">
+    <li class="blog">
+      <a class="title links" href="/">Blog Title 1</a>
+      <br>
+      <small class="date">date</small>
+      <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+        ut labore et dolore magna aliqua.</p>
+    </li>
+    <li class="blog">
+      <a class="title links" href="/">Blog Title 2</a>
+      <br>
+      <small class="date">date</small>
+      <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+        ut labore et dolore magna aliqua.</p>
+    </li>
+  </ul>
+
+  <hr>
+
+  <h2>@Projects</h2>
+  <ul class="list-non-bullet project-list">
+    <li class="project">
+      <h2 class="title">Project Title</h2>
+      <small class="date">date</small>
+      <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+        ut labore et dolore magna aliqua.</p>
+      <a href="/" class="primary-link project-render links">View Project</a>
+      <a href="/" class="secondary-link source links">View Source Code</a>
+    </li>
+    <li class="project">
+      <h2 class="title">Project Title</h2>
+      <small class="date">date</small>
+      <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+        ut labore et dolore magna aliqua.</p>
+      <a href="/" class="primary-link project-render links">View Project</a>
+      <a href="/" class="secondary-link source links">View Source Code</a>
+    </li>
+  </ul>
+
 
   <hr>
 
   <h2>@sections</h2>
   <section class="section">
-  <h3>white section</h3>
-  <p>This will have white background</p>
+    <h3>white section</h3>
+    <p>This will have white background</p>
   </section>
-  
+
   <section class="section ow">
     <h3>off white section</h3>
     <p>This will have off white background</p>
@@ -114,17 +159,17 @@
       </li>
       <li class="list-item-inline">
         <a href="/" class="links">
-          social two 
+          social two
         </a>
       </li>
       <li class="list-item-inline">
         <a href="/" class="links">
-          social three 
+          social three
         </a>
       </li>
     </ul>
   </footer>
 
- </body>
+</body>
 
 </html>
