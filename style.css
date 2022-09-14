@@ -173,10 +173,11 @@ hr {
     border-top-right-radius: 1rem;
 }
 
-.footer .links{
-    color: white;
-}
 
 .footer ul{
     padding-inline-start: 0px;
+}
+
+.footer ul li{
+    margin: 1rem;
 }
