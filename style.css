@@ -148,18 +148,18 @@ hr {
 
 .project-list .project .title{
     margin: 0px;
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: var(--primary-color);
 }
 
 .project-list .project .date{
+    font-size: 1.2rem;
     color: var(--dark-gray);
 }
 
 .project-list .project .description{
-    margin-top: 0px;
-    margin-bottom: 0.8rem;
-    font-size: 1.2rem;
+    margin: 1rem 0rem 1.5rem 0rem;
+    font-size: 1.5rem;
 
 }
 
