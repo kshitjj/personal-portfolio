@@ -1,3 +1,4 @@
-# personal-portfolio
-Hey, this is a portfolio. I am creating to showcase my projects. In this project I use, HTML, CSS, Javascript and js's framework.
-All the things, I am doing in this project are part of a course which I am taking from youtube(neog.camp level 0).
+# Personal Portfolio
+Welcome to my website portfolio! My name is Kshitij Rajgude and I am a Web Developer. On this site, you will find a showcase of my work, including projects I have completed, as well as information about my education and experience. I am passionate about open source, linux, cybersecurity and strive to continuously learn and grow in my field. Thank you for visiting my site and I hope you enjoy viewing my work.
+
+# Projects and experience I gained. d
