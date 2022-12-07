@@ -146,7 +146,7 @@ hr {
     background-color: var(--off-white);
     padding: 2rem;
     border-radius: 1rem;
-    border: dotted 1px;
+    border: inset 0.5rem;
     margin: 1rem;
 
 }
