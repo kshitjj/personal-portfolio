@@ -119,8 +119,13 @@ hr {
 
 /* blogs */
 
+.bloglist {
+    padding: 2rem;
+}
 .bloglist .blog {
     padding: 1rem 3rem;
+    border-radius: 1rem;
+    border: inset 0.5rem;
 }
 .bloglist .blog .title{
     color: var(--primary-color);
