@@ -1,16 +1,28 @@
 import logo from './logo.svg';
 import './App.css';
+import IntroComponent, { About, Skills, Contact, Projects, Resume, Contributions } from './introduction';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h5>Kshitij Rajgude</h5>
-        <a>Home</a>
-        <a>Blogs</a>
-        <a>Skills</a>
+      <header className="header">
+        <div className='Title'>
+          <h5>Kshitij Rajgude</h5>
+        </div>
+        <div className='headerList'>
+          <a>Home</a>
+          <a>Blogs</a>
+          <a>Skills</a>
+        </div>
       </header>
       <body>
+        <IntroComponent/>
+        <About/>
+        <Skills/>
+        <Projects/>
+        <Contributions/>
+        <Resume/>
+        <Contact/>
         {/* I am blah blah developer */}
         {/* About Section */}
         {/* What I can do for you (skills) */}

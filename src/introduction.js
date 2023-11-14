@@ -1,4 +1,4 @@
-function introComponent(){
+const IntroComponent =  ()  => {
     return (
         <div className="introduction">
             <h1>I am a Full Stack Developer</h1>
@@ -7,7 +7,7 @@ function introComponent(){
     )
 }
 
-function about(){
+export const About = () => {
     return(
         <div className="about"> 
             <h3>About</h3>
@@ -16,7 +16,7 @@ function about(){
     )
 }
 
-function skills(){
+export const Skills = () => {
     return(
         <div className="skills">
             <h3>
@@ -42,30 +42,32 @@ function skills(){
     )
 }
 
-function contributions(){
+export const Contributions = () => {
     return(
         <div className="contributions">
+            <h3>Contributions</h3>
             {/* PUT GITHUB LINKS HERE */}
         </div>
     )
 }
 
-function projects(){
+export const Projects = () => {
     return(
         <div className="projects">
+            <h3>Projects</h3>
             <h4>Front End Projects</h4>
             <h4>Back End Projects</h4>
             <h4>Full Stack Projects</h4>
             <h4>Blockchain Projects</h4>
-            <h4></h4>
             {/* MAKE AND PUT PROJECTS HERE, EVERYTHING */}
         </div>
     )
 }
 
-function resume(){
+export const Resume = () => {
     return(
         <div className="resume">
+            <h3>Resume</h3>
             <a link="./resume.pdf">
                 {/* update the resume link */}
                 <button>Download Resume/ CV</button>
@@ -75,21 +77,30 @@ function resume(){
     )
 }
 
-function contact(){
+export const Contact = () => {
     return(
         <div className="contact">
-            <a href="https://twitter.com/kshitjjj">
-                {/* twitter icon */}
-            </a>
-            <a href="https://www.linkedin.com/in/kshitij-rajgude-448954220/">
-                {/* linkedinIn profile */}
-            </a>
-            <a>
-                {/* Email Icon */}
-            </a>
-            <a href="https://github.com/kshitjj">
-                {/* Github Profile */}
-            </a>
+            <div className="contact-title">
+                <h3>
+                    Contact Me!
+                </h3>
+            </div>
+            <div className="contact-clickable">
+                <a href="https://twitter.com/kshitjjj">
+                    {/* twitter icon */}
+                </a>
+                <a href="https://www.linkedin.com/in/kshitij-rajgude-448954220/">
+                    {/* linkedinIn profile */}
+                </a>
+                <a>
+                    {/* Email Icon */}
+                </a>
+                <a href="https://github.com/kshitjj">
+                    {/* Github Profile */}
+                </a>
+            </div>
         </div>
     )
 }
+
+export default IntroComponent;
