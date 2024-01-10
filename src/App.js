@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import IntroComponent, { About, Skills, Contact, Projects, Resume, Contributions } from './introduction';
 

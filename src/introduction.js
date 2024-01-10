@@ -1,3 +1,8 @@
+import emailLogo from "./assets/images/email.svg";
+import githubLogo from "./assets/images/github1.svg";
+import linkedInLogo from "./assets/images/linkedin.svg";
+import twitterLogo from "./assets/images/twitter.svg";
+
 const IntroComponent =  ()  => {
     return (
         <div className="introduction">
@@ -25,18 +30,23 @@ export const Skills = () => {
             <h4>
                 Web Development
             </h4>
+            <p>React, React Native, Next.js, Node.js, Express.js, Mongodb, MySQL, REST API</p>
             <h4>
                 Blockchain
             </h4>
+            <p>Blockchain Concepts, Ethereum, Solidity, web3.js, Hyperledger, etc?(CHANGE THIS)</p>
             <h4>
                 Tools
             </h4>
+            <p>Kubernetes, Docker, AWS, Google Cloud, ngrok</p>
             <h4>
                 OS
             </h4>
+            <p>Linux, Windows</p>
             <h4>
                 Languages
             </h4>
+            <p>javascript, golang, rust, python, c++, html, css</p>
             {/* INSERT SKILLS HERE NIGGA */}
         </div>
     )
@@ -55,9 +65,7 @@ export const Projects = () => {
     return(
         <div className="projects">
             <h3>Projects</h3>
-            <h4>Front End Projects</h4>
-            <h4>Back End Projects</h4>
-            <h4>Full Stack Projects</h4>
+            <h4>Web Development</h4>
             <h4>Blockchain Projects</h4>
             {/* MAKE AND PUT PROJECTS HERE, EVERYTHING */}
         </div>
@@ -87,16 +95,16 @@ export const Contact = () => {
             </div>
             <div className="contact-clickable">
                 <a href="https://twitter.com/kshitjjj">
-                    {/* twitter icon */}
+                    <img className="logo" src={twitterLogo} alt="twitter logo"/>
                 </a>
                 <a href="https://www.linkedin.com/in/kshitij-rajgude-448954220/">
-                    {/* linkedinIn profile */}
+                    <img className="logo" src={linkedInLogo} alt="linkedIn logo"/>
                 </a>
+                    <img className="logo" src={emailLogo} alt="email logo"/>
                 <a>
-                    {/* Email Icon */}
                 </a>
                 <a href="https://github.com/kshitjj">
-                    {/* Github Profile */}
+                    <img className="logo" src={githubLogo} alt="twitter logo"/>
                 </a>
             </div>
         </div>
